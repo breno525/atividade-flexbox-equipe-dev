@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
 :root {
-  --cor-primaria: #111;
+  --cor-primaria: #000000;
   --cor-secundaria: #f6f6f6;
-  --cor-terciaria: #fd2231; /* <- ATIVIDADE ---- trocar A COR */
+  --cor-terciaria: #0465ba; /* <- ATIVIDADE ---- trocar A COR */
   --cor-hover: #272727;
 }
 
@@ -66,8 +66,12 @@ body {
   font-weight: 600;
   margin-bottom: 30px;
   color: var(--cor-secundaria);
+  
 }
 
+.titulosec{
+    color: #0465ba;
+}
 /* ---------- CONTEÚDO PRINCIPAL ---------- */
 .container {
   flex: 1;
@@ -81,7 +85,7 @@ body {
 
 .card {
   background-color: var(--cor-hover);
-  border: 2px solid #888; /* <- ATIVIDADE ---- trocar por variável */
+  border: 2px solid #0465ba; /* <- ATIVIDADE ---- trocar por variável */
   border-radius: 10px;
   width: 250px;
   text-align: center;
